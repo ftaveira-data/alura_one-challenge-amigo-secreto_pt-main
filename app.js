@@ -26,15 +26,20 @@ function renderizarLista() {
     });
 }
 
-function sortearAmigos() {
+function sortearAmigo() {
     if (listaNomes.length === 0) {
-        alert("Nenhum nome foi adcionado!");
+        alert("Nenhum nome foi adicionado!");
         return;
     }
 
     let indiceSorteado = Math.floor(Math.random() * listaNomes.length);
     let nomeSorteado = listaNomes[indiceSorteado];
+
     let ulResultado = document.getElementById("resultado");
+    ulResultado.innerHTML = ""; // limpa resultado anterior
+
+    let li = document.createElement("li");
+    li.textContent = `Amigo secreto sorteado foi: ${nomeSorteado}`;
     ulResultado.appendChild(li);
 }
 
