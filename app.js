@@ -10,7 +10,6 @@ function adicionarAmigo() {
     }
 
     listaNomes.push(nome);
-
     input.value= "";
 
     renderizarLista();
@@ -25,5 +24,17 @@ function renderizarLista() {
         li.textContent = nome;
         ul.appendChild(li);
     });
+}
+
+function sortearAmigos() {
+    if (listaNomes.length === 0) {
+        alert("Nenhum nome foi adcionado!");
+        return;
+    }
+
+    let indiceSorteado = Math.floor(Math.random() * listaNomes.length);
+    let nomeSorteado = listaNomes[indiceSorteado];
+    let ulResultado = document.getElementById("resultado");
+    ulResultado.appendChild(li);
 }
 
