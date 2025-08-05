@@ -36,7 +36,7 @@ function sortearAmigo() {
     let nomeSorteado = listaNomes[indiceSorteado];
 
     let ulResultado = document.getElementById("resultado");
-    ulResultado.innerHTML = ""; // limpa resultado anterior
+    ulResultado.innerHTML = "";
 
     let li = document.createElement("li");
     li.textContent = `Amigo secreto sorteado foi: ${nomeSorteado}`;
