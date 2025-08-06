@@ -7,10 +7,10 @@ Este é um projeto simples em HTML, CSS e JavaScript que permite criar uma lista
 ## 📸 Demonstração
 
 ### 🔤 Adicionando nomes
-<img src="assets/demo-adicionar-nome.gif" width="600" alt="Demonstração de adicionar nomes na lista" />
+<img src="assets/demo-adicionar-nome.png" width="600" alt="Demonstração de adicionar nomes na lista" />
 
 ### 🎲 Sorteando o amigo secreto
-<img src="assets/demo-sortear.gif" width="600" alt="Demonstração de sorteio de amigo secreto" />
+<img src="assets/demo-sortear-nome.png" width="600" alt="Demonstração de sorteio de amigo secreto" />
 
 ---
 
